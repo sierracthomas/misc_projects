@@ -19,12 +19,12 @@ for phase_order in [2]:
     hp, hc = hp.trim_zeros(), hc.trim_zeros()
     #normalize hp arrays to get values in [-1,1]
     normalized_hp = np.array(hp)/np.max(np.array(hp))
-    # plot waveform
+    #plot waveform
     pylab.clf()
     pylab.plot(hp.sample_times, normalized_hp)
 
 pylab.xlim(-0.1,0.025)
 pylab.show()
 
-# write .wav file
+#write .wav file
 scipy.io.wavfile.write("test.wav", 16384, normalized_hp)

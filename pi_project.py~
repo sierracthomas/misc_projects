@@ -1,6 +1,3 @@
-# This program uses a Monte Carlo approximation to let the user estimate the value of pi. This version uses python. 
-
-
 import random
 import math 
 import matplotlib.pyplot as plt

@@ -1,5 +1,3 @@
-// This project uses the Monte Carlo approximation to estimate the value of pi. This version was written in C++.
-
 #include <iostream>
 #include <ctime> //for time function                                            
 #include <cstdlib> // for  random numbers                                       
